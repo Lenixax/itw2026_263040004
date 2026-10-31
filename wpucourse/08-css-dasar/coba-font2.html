@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coba CSS - Font Styling</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Playwrite+TZ+Guides&family=Rubik+Storm&display=swap');
+
+       @font-face {
+        font-family: Rubik;
+        src: url(fonts/RubikStorm-Regular.ttf) format('truetype');
+        font-weight: normal;
+        font-style: normal;
+        font-display: swap;
+       }
+
+        h1{
+            color: crimson;
+            font-size: 60px;
+            text-align: center;
+            font-family: "Rubik Storm", sans-serif;
+            font-weight: 300;
+        }
+        p {
+            color: navy;
+            text-align: center;
+            font-size: 30px;
+            font-family: Playwrite TZ Guides, Helvetica, sans-serif;
+        }
+        .font-rubik {
+            font-family: Rubik, arial, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <h1>Hello World</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla facilis neque doloremque! Nulla eius sint sit saepe. Placeat, nemo dolor?</p>
+    <p class="font-rubik">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Blanditiis alias doloribus mollitia modi accusamus inventore minus error. Rerum, iusto esse.</p>
+    
+</body>
+</html>
