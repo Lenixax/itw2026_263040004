@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coba background Attachment</title>
+    <style>
+        body {
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #eee;
+            height: 2000px;
+        }
+
+        .kotak {
+            width: 400px;
+            height: 300px;
+            border: 10px solid #333;
+            margin: auto;
+            background-image: url(Foto/walawe.jpg);
+            background-size: 60px;
+            background-repeat: round;
+            overflow: auto;
+            background-attachment: fixed;
+        }
+
+        .content {
+            line-height: 2;
+            color: #fff;
+            background-color: rgb(0 0 0/70%);
+        }
+        
+        p {
+            margin: 0;
+        }
+    </style>
+
+</head>
+<body>
+    <h1>Coba Background Attachment</h1>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, aspernatur.</p>
+    
+    <div class="kotak">
+        <div class="content">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, placeat.</p>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laudantium nobis iste fuga corporis laboriosam, deleniti odit perspiciatis pariatur neque molestias ipsam, nemo ea amet tenetur culpa harum vero. Similique, dolor!</p>
+       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum natus enim aliquid, in quae vitae voluptatem consequatur. Reiciendis fugit aut nobis, totam consectetur placeat soluta maxime, modi fuga molestias tempora!</p>
+       <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Beatae tempora, nihil commodi nobis quidem culpa ullam ipsam laboriosam, earum vel magni voluptatum sequi veniam dolorem ea pariatur autem! In, culpa.</p>
+        </div>
+    </div>
+</body>
+</html>
